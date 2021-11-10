@@ -1,0 +1,31 @@
+apiVersion: "v2"    # REQUIRED: chart API version
+name: "helm-exercise"   # REQUIRED: the name of the chart
+version: "0.0.1"        # REQUIRED: a semVer 2 version
+# kubeVersion: >=1.13.0 # a semVar range of compatible Kubernetes versions (optional)
+description: "An exercise to get to know Helm" # a single sentence description of the project (optional)
+type:                   # type of the chart (optional)
+keywords:               # a list of keywords about the project (optional)
+    - exercise
+    - bootcamp
+home: https://github.com/chodges7/first-helm-chart # URL of this projects home page (optional)
+sources:                # a list of URLs to source code for this project (optional)
+    - https://devops-bootcamp.liatr.io/#/5-release-management/5.4.2-helm
+# dependencies:           # a list of chart requirements (optional)
+#     - name: nginx 
+#       version: "1.2.3"
+#       repository: (optional) "https://example.com/charts" or alias ("@repo-name")
+#       condition: (optional) a yaml path that resolves to a boolean, user for enabling/disabling charts (e.g. subchart1.enabled)
+#       tags: # (optional)
+#         - 
+#       import-values:
+#         - Import Values holds the mapping of source values to parent key to be imported. Each item can be a string or pair of child/parent sublist items
+#       alias: (optional)
+maintainers: # (optional)
+    - name: "Christian Hodges"          # required for each maintainer
+      email: "christianh@liatrio.com"   # optional for each maintainer
+      url: "https://csuchico.edu"       # optional for each maintainer 
+icon: # URL to SVG or PNG image to be used as an icon
+appVersion: "alpha" # version of the app that this contians (optional) Needn't be SemVer
+deprecated: FALSE # whether this chart is deprecated (optional, boolean)
+annotations: # also the place for metadata
+    example: # a list of annotations by name (optional)
