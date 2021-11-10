@@ -1,0 +1,5 @@
+# BAD => Chicken: true # don't start values with caps
+# BAD => chicken-noodle-soup: true # don't use hyphens in the name
+
+# the player type example that I'm using
+playerType: human
