@@ -9,4 +9,6 @@ first-helm-chart
 Jenkins
 ---
 - This exercise is using the docker container that we made for Jenkins so that we can practice using Helm.
-
+- The health checks are a little bit of an issue. There are two solutions:
+	- Do a clean install so you can speed Jenkins along
+	- Increase the `initialDelaySeconds`
